@@ -1,0 +1,19 @@
+# Never publish TwitchDropsMiner user data or runtime files.
+cookies.jar
+settings.json
+cache/
+lock.file
+log.txt
+dump.dat
+*.token
+*.secret
+*.env
+
+# Release binaries are distributed through GitHub Releases.
+*.exe
+*.exe1
+*.zip
+*.7z
+*.msi
+
+.release-notes.md
