@@ -6,9 +6,9 @@ This is an unofficial patched Windows build based on [TwitchDropsMiner](https://
 
 ## 下载 / Download
 
-请从本仓库的 [Releases](../../releases) 页面下载 `TwitchDropsMiner不领取.exe`。仓库不包含用户 Cookie、登录令牌、设置文件、缓存或代理凭据。
+请从本仓库的 [Releases](../../releases) 页面下载 `TwitchDropsMiner.exe`。仓库不包含用户 Cookie、登录令牌、设置文件、缓存或代理凭据。
 
-Download `TwitchDropsMiner不领取.exe` from this repository's [Releases](../../releases) page. The repository contains no user cookies, login tokens, settings, cache, or proxy credentials.
+Download `TwitchDropsMiner.exe` from this repository's [Releases](../../releases) page. The repository contains no user cookies, login tokens, settings, cache, or proxy credentials.
 
 ## 补丁行为 / Patched behavior
 
@@ -23,14 +23,14 @@ Unclaimed Drops may expire. This patch does not bypass Twitch server rules or fa
 ## 校验 / Verification
 
 ```text
-SHA-256  TwitchDropsMiner不领取.exe
+SHA-256  TwitchDropsMiner.exe
 58C7B719496F448CA5E6153724E86334EF551ADF3682AF8DDD929A152250592A
 ```
 
 PowerShell 校验命令：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath ".\TwitchDropsMiner不领取.exe"
+Get-FileHash -Algorithm SHA256 -LiteralPath ".\TwitchDropsMiner.exe"
 ```
 
 ## 隐私 / Privacy
