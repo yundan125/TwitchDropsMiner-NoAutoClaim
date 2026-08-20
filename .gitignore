@@ -1,19 +1,38 @@
-# Never publish TwitchDropsMiner user data or runtime files.
-cookies.jar
-settings.json
-cache/
-lock.file
+# Cache files
+__pycache__
+.mypy_cache
+# Build and dist files
+/build
+/dist
+/*.exe
+/*.exe1
+/*.zip
+/*.7z
+/*.msi
+/*.tmp
+/Twitch Drops Miner
+# Dev files
+*.new
+/env
+/cache
+/*.jar
 log.txt
-dump.dat
+/dump.dat
+/lock.file
+settings.json
 *.token
 *.secret
 *.env
+/lang/English.json
+# AppImage
+/AppDir
+/appimage-builder
+/appimage-build
+/*.AppImage
+/*.AppImage.zsync
+.DS_Store
+*.app
 
-# Release binaries are distributed through GitHub Releases.
-*.exe
-*.exe1
-*.zip
-*.7z
-*.msi
-
-.release-notes.md
+# Local patcher state and release tooling
+/.tdm-claim-toggle-patcher/
+/.release-notes.md
